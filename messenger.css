@@ -1304,3 +1304,13 @@ blockquote.FAM-codebox > div {
   padding: 10px;
   z-index: 999;
 }
+:root {
+  --FAM-left: 20px !important;
+  --FAM-right: auto !important;
+}
+
+#FAM {
+  left: var(--FAM-left) !important;
+  right: var(--FAM-right) !important;
+}
+
